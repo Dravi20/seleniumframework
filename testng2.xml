@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<suite parallel = "tests" name="Suite">
+<listeners>
+
+<listener class-name = "Selenium.seleniumframework1.Listeners"/>
+</listeners>
+  <test thread-count="5" name="Submitorder">
+    <classes>
+      <class name="Selenium.Seleniumframework.errorvalidation"/>
+      
+     
+      </classes>
+    
+  </test> <!-- Test -->
+  <test thread-count="5" name="order">
+    <classes>
+      
+      <class name ="Selenium.Seleniumframework.Submitordertest"/>
+     
+      </classes>
+      </test>
+</suite> <!-- Suite -->
